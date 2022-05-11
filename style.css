@@ -1,15 +1,23 @@
 /* Your CSS goes here */
 
 /* Example */
+body {
+    background-color: aquamarine;
+    cursor: context-menu;
+}
+
 
 #daksh_heading{
   font-family:sans-serif;
   text-align: center;
   border-radius: 25px;
+  margin-top: 0px;
   background-color: #6c63ff;
 }
 
 #navbar{
+      margin-top: 0px;
+      margin-bottom: 0px;
       background-color: white;
       text-align: right;
       text-decoration: wavy;
@@ -22,6 +30,7 @@
   width: fit-content;
   max-width: 100%;
   max-height: 100%;
+  margin-top: 0px;
 
 }
 
@@ -55,15 +64,43 @@ a:hover {
 }
 .form{
   width: 50%;
-  margin-left:30% ;
+  margin-top: 0px;
+  margin-left:25%;
   max-width: 100%;
   max-height: 75%;
-  padding-top: 400px;
+  padding-top: 1px;
   box-sizing:border-box
 }
 .forma{
   margin-right: 0%;
+
 }
 #formright{
   display: inline;
+}
+
+.text1 a{
+  color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+}
+a:hover{
+  box-shadow:inset 0 0 0 0 #a47ef2;
+  background-color: green;
+  color: blue;
+}
+
+.text2 a{
+  color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+}
+a:hover{
+  box-shadow:inset 0 0 0 0 #a47ef2;
+  background-color: yellowgreen;
+  color: blue;
 }
