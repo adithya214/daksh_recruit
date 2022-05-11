@@ -1,0 +1,69 @@
+/* Your CSS goes here */
+
+/* Example */
+
+#daksh_heading{
+  font-family:sans-serif;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #6c63ff;
+}
+
+#navbar{
+      background-color: white;
+      text-align: right;
+      text-decoration: wavy;
+}
+
+
+
+.abcd{
+  height: fit-content;
+  width: fit-content;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+a {
+  border: 10 10 10 100;
+  box-shadow: inset 0 0 0 0 #7154cf;
+  text-decoration: none;
+  color: #6c63ff;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 #a47ef2;
+  color: white;
+  zoom: 1.35;
+
+}
+#navbar * {
+  display: inline;
+  padding-left: 10px;
+  font-size: large;
+}
+.quote{
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.abcd{
+  float: left;
+  background-color: gray;
+}
+.form{
+  width: 50%;
+  margin-left:30% ;
+  max-width: 100%;
+  max-height: 75%;
+  padding-top: 400px;
+  box-sizing:border-box
+}
+.forma{
+  margin-right: 0%;
+}
+#formright{
+  display: inline;
+}
